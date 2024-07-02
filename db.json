@@ -3,5 +3,435 @@
     "title": "title",
     "caconicalUrl": "/",
     "abstract": "description"
+  },
+  "layout": "homepage",
+  "slots": {
+    "header": [
+      {
+        "component": "chip-component",
+        "contents": [
+          { "type": "link", "title": "dossieraggio", "url": "/" },
+          { "type": "link", "title": "abruzzo", "url": "/" },
+          { "type": "link", "title": "Jannik Sinner", "url": "/" }
+        ]
+      },
+      {
+        "component": "select-category",
+        "contents": [
+          { "type": "placeholder", "title": "categorie", "url": "/" },
+          { "type": "option", "title": "Politica", "url": "/" },
+          { "type": "option", "title": "Giustizia", "url": "/" },
+          { "type": "option", "title": "Cronaca", "url": "/" },
+          { "type": "option", "title": "Spettacolo", "url": "/" },
+          { "type": "option", "title": "Esteri", "url": "/" },
+          { "type": "option", "title": "Economia", "url": "/" },
+          { "type": "option", "title": "Sport", "url": "/" },
+          { "type": "option", "title": "Blog", "url": "/" },
+          { "type": "option", "title": "Podcast", "url": "/" },
+          { "type": "option", "title": "Libero TV", "url": "/" }
+        ]
+      },
+      {
+        "component": "libero-ora",
+        "contents": [
+          {
+            "type": "podcast",
+            "resource": "/",
+            "coverImage": "/",
+            "title": "title"
+          }
+        ]
+      }
+    ],
+    "hero": [
+      {
+        "component": "anteprima-apertura",
+        "contents": [
+          {
+            "type": "article",
+            "abstract": "Da “cambia il vento” a “in Abruzzo vinciamo facile”, dopo la Sardegna la sinistra s’era convinta d’aver svoltato. E ha fatto ogni errore possibile.",
+            "category": "Tipologia",
+            "author": "Nome Cognome",
+            "enhancedTitle": [
+              { "type": "text", "content": "CI" },
+              {
+                "type": "image",
+                "url": "https://placehold.co/600x400/grey/black/?text=16:9"
+              },
+              { "type": "text", "content": "AVEVANO" },
+              {
+                "type": "image",
+                "url": "https://placehold.co/600x400/grey/black/?text=16:9"
+              },
+              { "type": "text", "content": "Creduto" }
+            ]
+          },
+          {
+            "type": "article",
+            "overtitle": "OK DELL’EUROPA",
+            "title": "Case green, arriva l'ok definitivo all'Europarlamento: cosa cambia"
+          }
+        ]
+      }
+    ],
+    "main-section": [
+      {
+        "component": "taglio-default",
+        "contents": [
+          {
+            "type": "article",
+            "title": "Cinque milioni di case da rifare in tutta italia",
+            "href": "/",
+            "abstract": "L'obiettivo della cosiddetta direttiva case green è ridurre progressivamente le emissioni di gas serra e i consumi energetici degli edifici entro il 2030, così da arrivare alla neutralità climatica entro il 2050.",
+            "author": "Elisabetta Manzoni"
+          },
+          {
+            "type": "article",
+            "overtitle": "Ok dell'Europa",
+            "title": "Case green, arriva l'ok definitivo all'Europarlamento: cosa cambia"
+          },
+          {
+            "type": "article",
+            "overtitle": "Leghista espulso",
+            "title": "Casa green, sì all'Europarlamento? Ciocca, fischietto e cartellino rosso"
+          },
+          {
+            "tag": "Editoriale",
+            "title": "La bugia della pace senza i fucili",
+            "abstract": "Bollettino dal campo di battaglia della contemporaneità. In Ucraina la Russia riconquista terreno e l’esercito di Kiev, a corto di munizioni e copertura aerea, ripiega. Un altro fronte (...)",
+            "author": "Mario Sechi"
+          }
+        ]
+      },
+      {
+        "component": "taglio-timeline",
+        "contents": [
+          {
+            "type": "article",
+            "title": "uccisi sette operatori umanitari a Gaza mentre distribuivano aiuti",
+            "href": "/",
+            "abstract": "L'obiettivo della cosiddetta direttiva case green è ridurre progressivamente le emissioni di gas serra e i consumi energetici degli edifici entro il 2030, così da arrivare alla neutralità climatica entro il 2050.",
+            "author": "",
+            "timeline": [
+              {
+                "timestamp": "2024-06-26T10:12:21.068Z",
+                "abstract": "Idf promette indagine indipendente su attacco Wck: “Sincero dolore”"
+              },
+              {
+                "timestamp": "2024-06-26T10:12:07.651Z",
+                "abstract": "Wck: “Movimenti del convoglio erano coordinati con l'Idf”"
+              },
+              {
+                "timestamp": "2024-06-26T10:08:51.212Z",
+                "abstract": "Media: un drone degli Houti ha colpito la zona israeliana di Eilat"
+              }
+            ]
+          },
+          {
+            "type": "article",
+            "overtitle": "Ok dell'Europa",
+            "title": "Case green, arriva l'ok definitivo all'Europarlamento: cosa cambia"
+          }
+        ]
+      },
+      {
+        "component": "taglio-default",
+        "contents": [
+          {
+            "type": "article",
+            "tag": "imbarazzo in TV",
+            "title": "Vanno picchiati Raimo choc in tv, cala il gelo in studio",
+            "href": "/",
+            "abstract": "L'obiettivo della cosiddetta direttiva case green è ridurre progressivamente le emissioni di gas serra e i consumi energetici degli edifici entro il 2030, così da arrivare alla neutralità climatica entro il 2050.",
+            "author": "Elisabetta Manzoni"
+          },
+          {
+            "type": "article",
+            "overtitle": "imbarazzo",
+            "title": "Raimo-Bernardini de Pace, rissa in tv: 'Marchesa, ci inviti a casa sua!', 'Imbarazzante'"
+          }
+        ]
+      },
+      {
+        "component": "taglio-wide",
+        "contents": [
+          {
+            "type": "article",
+            "title": "Apple-spotify, le ragioni della guerra",
+            "href": "/"
+          },
+
+          {
+            "type": "article",
+            "overtitle": "Ok dell'Europa",
+            "title": "Case green, arriva l'ok definitivo all'Europarlamento: cosa cambia"
+          },
+          {
+            "type": "article",
+            "overtitle": "Leghista espulso",
+            "title": "Casa green, sì all'Europarlamento? Ciocca, fischietto e cartellino rosso"
+          },
+          {
+            "type": "article",
+            "tag": "Editoriale",
+            "title": "La bugia della pace senza i fucili",
+            "abstract": "Bollettino dal campo di battaglia della contemporaneità. In Ucraina la Russia riconquista terreno e l’esercito di Kiev, a corto di munizioni e copertura aerea, ripiega. Un altro fronte (...)",
+            "author": "Mario Sechi"
+          }
+        ]
+      },
+      {
+        "component": "taglio-default",
+        "contents": [
+          {
+            "type": "article",
+            "tag": "lacrime in tv",
+            "title": "Fedez in lacrime davanti alla Fagnani: il retroscena su 'Belve'",
+            "abstract": "Fedez in lacrime durante la registrazione della puntata di Belve. Secondo quanto riporta l’Adnkronos, il rapper si sarebbe commosso fino alle lacrime durante l’intervista con Francesca Fagnani, registrata ieri negli studi del centro Rai Nomentano intitolato a Fabrizio Frizzi.",
+            "author": "Elisabetta Manzoni",
+            "category": "Tipologia",
+            "image": { "url": "/", "alt": "" }
+          }
+        ]
+      }
+    ],
+    "sidebar": [
+      {
+        "component": "sidebar",
+        "contents": [
+          {
+            "type": "label",
+            "label": "Opinion"
+          },
+          {
+            "type": "article",
+            "href": "/",
+            "image": {
+              "url": "https://placehold.co/60x60",
+              "alt": "articolo-xs-image",
+              "width": 60,
+              "height": 60
+            },
+            "title": "L’agenda Giorgia alla Casa Bianca",
+            "abstract": "Bollettino dal campo di battaglia della contemporaneità. In Ucraina la Russia riconquista terreno e l’esercito.",
+            "category": "Editoriale",
+            "author": "Mario Sechi"
+          },
+          {
+            "type": "article",
+            "href": "/",
+            "image": {
+              "url": "https://placehold.co/60x60",
+              "alt": "articolo-xs-image",
+              "width": 60,
+              "height": 60
+            },
+            "title": "Quello che si è schierato contro zan, in lista con zan",
+            "abstract": "Siamo giunti al venerdì Santo e i giornali di oggi sono dominati da una figura centrale, quella di Ilaria Salis.",
+            "category": "Analisi",
+            "author": "Daniele Capezzone"
+          },
+          {
+            "type": "article",
+            "href": "/",
+            "image": {
+              "url": "https://placehold.co/60x60",
+              "alt": "articolo-xs-image",
+              "width": 60,
+              "height": 60
+            },
+            "title": "Maurizio Landini ha scoperto il vero John Elkann tagli e fughe all'estero",
+            "abstract": "Quando gli Agnelli-El kann decisero di offrire la Fiat in pasto ai francesi,  Landini parlò, senza pensarci più di tanto, di «opportunità».",
+            "adv": "Sponsorizzato da Nomeazienda"
+          },
+          {
+            "type": "article",
+            "href": "/",
+            "image": {
+              "url": "https://placehold.co/60x60",
+              "alt": "articolo-xs-image",
+              "width": 60,
+              "height": 60
+            },
+            "title": "L’agenda Giorgia alla Casa Bianca",
+            "abstract": "Bollettino dal campo di battaglia della contemporaneità. In Ucraina la Russia riconquista terreno e l’esercito",
+            "category": "Tipologia",
+            "author": "Nome Cognome"
+          },
+          {
+            "type": "article",
+            "href": "/",
+            "image": {
+              "url": "https://placehold.co/60x60",
+              "alt": "articolo-xs-image",
+              "width": 60,
+              "height": 60
+            },
+            "title": "Quello che si è schierato contro zan, in lista con zan",
+            "abstract": "Siamo giunti al venerdì Santo e i giornali di oggi sono dominati da una figura centrale, quella di Ilaria Salis.",
+            "category": "Tipologia",
+            "author": "Nome Cognome"
+          },
+          {
+            "type": "article",
+            "href": "/",
+            "image": {
+              "url": "https://placehold.co/60x60",
+              "alt": "articolo-xs-image",
+              "width": 60,
+              "height": 60
+            },
+            "title": "Maurizio Landini ha scoperto il vero John Elkann: tagli e fughe all'estero",
+            "abstract": "Quando gli Agnelli-El kann decisero di offrire la Fiat in pasto ai francesi,  Landini parlò, senza pensarci più di tanto, di «opportunità».",
+            "category": "Tipologia",
+            "author": "Nome Cognome"
+          }
+        ]
+      }
+    ],
+    "section-argument-5-article": [
+      {
+        "component": "anteprima-hero",
+        "contents": [
+          { "type": "label", "label": "sport" },
+          {
+            "type": "article",
+            "label": "la previsioine",
+            "title": "Alcaraz fuori terribile pressione su Sinner",
+            "summary": "Per Jannik Sinner le porte del secondo posto nel ranking cominciano a schiudersi.",
+            "category": "Tipologia",
+            "author": "Nome Cognome",
+            "abstract": "Il commento, entusiasta, di questo clamoroso turning point a favore del tennista italiano viene da Ubaldo Scanagatta, direttore di Ubitennis: “È accaduto ciò che nessuno si aspettava, cioè che Alcaraz potesse perdere contro Dmitrov e con questo punteggio, cioè 6-2, 6-4 e con Dmitrov che ha avuto anche la palla break del 5-1 nel secondo set e l'ha mancata, altrimenti probabilmente lo avrebbe vinto 6-1.",
+            "image": { "url": "/", "alt": "/" }
+          },
+          {
+            "type": "article",
+            "overtitle": "overtitle",
+            "title": "Jannik Sinner, non solo tennis a Miami: perché spopola fuori dal campo",
+            "date": "data",
+            "image": { "url": "/", "alt": "/" }
+          },
+          {
+            "type": "article",
+            "overtitle": "overtitle",
+            "title": "Sinner, il punto dell'anno sconvolge i commentatori britannici: urla in diretta | Video",
+            "date": "data",
+            "image": { "url": "/", "alt": "/" }
+          },
+          {
+            "type": "article",
+            "overtitle": "overtitle",
+            "title": "Serie Avvelenata, stagione inquinata da troppe polemiche: pessima figura all'estero",
+            "date": "data",
+            "image": { "url": "/", "alt": "/" }
+          },
+          {
+            "type": "article",
+            "overtitle": "overtitle",
+            "title": "'A cosa gioco con Gigio Donnarumma': la spiazzante rivelazione di Jannik Sinner",
+            "category": "Tipologia",
+            "author": "Nome Cognome",
+            "date": "Data",
+            "image": { "url": "/", "alt": "/" }
+          }
+        ]
+      }
+    ],
+    "section-special": [
+      {
+        "component": "anteprima-special",
+        "contents": [
+          {
+            "type": "article",
+            "image": { "url": "/", "alt": "/" },
+            "title": "'IL CEREALE GIAPPONESE' SCONCERTO A L’EREDITà",
+            "title1": {
+              "title": "Title",
+              "href": "/"
+            },
+            "title2": {
+              "title": "Dai dammi 1 euro, 'Sapeva?': il pacco che scatena i sospetti",
+              "href": ""
+            }
+          },
+          {
+            "type": "article",
+            "image": { "url": "/", "alt": "/" },
+            "title": "dramma ad affari tuoi “colpa dei calzini”",
+            "title1": {
+              "title": "L'Eredità, Pierpaolo vince alla Ghigliottina: 'Abbinamenti già usato'",
+              "href": "/"
+            },
+            "title2": {
+              "title": "Iacometti contro la Boldrini: L'allegra brigata",
+              "href": "/"
+            }
+          }
+        ]
+      },
+      {
+        "component": "anteprima-m",
+        "contents": [
+          {
+            "type": "article",
+            "overtitle": "overtitle",
+            "title": " Chiara Ferragni fatta fuori da Della Valle: una pesantissima sentenza anticipata",
+            "category": "Tipologia",
+            "author": "Nome Cognome",
+            "date": "Data",
+            "adv": "Sponsorizzato da Nomeazienda"
+          }
+        ]
+      },
+      {
+        "component": "anteprima-s",
+        "contents": [
+          {
+            "type": "anteprima-s",
+            "overtitle": "overtitle",
+            "title": "Canale 5, X-Style di Giorgia Venturini gode di ottima salute: i picchi che sorprendono la tv",
+            "date": "data",
+            "category": "Tipologia",
+            "author": "Nome Cognome",
+            "image": { "url": "/", "alt": "/" }
+          },
+          {
+            "type": "anteprima-s",
+            "overtitle": "overtitle",
+            "title": "Briatore e il tumore, non lo lascio solo. Il dramma di Gregoraci in ospedale | Guarda",
+            "date": "data",
+            "image": { "url": "/", "alt": "/" }
+          },
+          {
+            "type": "anteprima-s",
+            "overtitle": "overtitle",
+            "title": "I tempi di Nettuno Branko l'oroscopo il segno con una grande giornata davanti",
+            "date": "data",
+            "image": { "url": "/", "alt": "/" }
+          },
+          {
+            "type": "anteprima-s",
+            "overtitle": "overtitle",
+            "title": "Annalisa, sarà la festa della libertà. Madrina del Roma Pride: la sua discesa in campo",
+            "date": "data",
+            "image": { "url": "/", "alt": "/" }
+          },
+          {
+            "type": "anteprima-s",
+            "overtitle": "overtitle",
+            "title": "Kate Middleton e il tumore, chi c'è al timone della famiglia non è William",
+            "date": "data",
+            "image": { "url": "/", "alt": "/" }
+          },
+          {
+            "type": "anteprima-s",
+            "overtitle": "overtitle",
+            "title": "Re Carlo, il volto stravolto e attenzione agli occhi: le immagini spaventano Londra",
+            "date": "data",
+            "image": { "url": "/", "alt": "/" }
+          }
+        ]
+      }
+    ]
   }
 }
